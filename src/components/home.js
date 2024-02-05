@@ -1,8 +1,11 @@
 import olive from '../assets/13437643_1612.m10.i302.n005.F.c03.149588858 Olive tree branches texture. Vector olives seamless background for oil package.jpg'
 import olive1 from '../assets/10120334_1153.jpg'
+import olive2 from '../assets/3226266_43211.jpg'
+import olive3 from '../assets/3e8891bc1f7129f3e819f15969c639d3.jpg'
+import olive4 from '../assets/6.jpg'
 
 
-export default function Home(){
+export default function Home(props){
     
     return(
         <>
@@ -32,7 +35,7 @@ export default function Home(){
                 <div class="py-12 relative overflow-hidden bg-white">
                 <div class="grid grid-cols-2 max-w-screen-lg mx-auto">
                     <div class="w-full flex flex-col items-end pr-16">
-                    <img src= {olive1} class="w-full" />
+                    <img src= {olive1} class="w-full mr-20 mt-10" />
 
                     <div class="h-full mt-auto overflow-hidden relative">
                         {/* <img src="https://picsum.photos/800/600" class="h-full w-full object-contain" alt=""> */}
@@ -65,7 +68,7 @@ export default function Home(){
                     </div>
                     </div>
                     <div class="w-full flex flex-col pl-16">
-                    <h2 class="text-[#64618C] font-bold text-2xl max-w-xs text-left mb-12 mt-10">Whether you need Assistance</h2>
+                    <img src= {olive3} class="ml-36 mt-10" />
                     <div class="h-full mt-auto overflow-hidden relative">
                         {/* <img src="https://picsum.photos/800/600" class="h-full w-full object-contain" alt=""> */}
                     </div>
@@ -77,7 +80,7 @@ export default function Home(){
                 <div class="py-12 relative overflow-hidden bg-white">
                 <div class="grid grid-cols-2 max-w-screen-lg mx-auto">
                     <div class="w-full flex flex-col items-end pr-16">
-                    <h2 class="text-[#64618C] font-bold text-2xl max-w-xs text-right mb-12 mt-10">Whether you need Assistance</h2>
+                    <img src= {olive4} class="w-full mr-20 mt-10" />
                     <div class="h-full mt-auto overflow-hidden relative">
                         {/* <img src="https://picsum.photos/800/600" class="h-full w-full object-contain" alt=""> */}
                     </div>
